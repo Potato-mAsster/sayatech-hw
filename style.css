@@ -270,8 +270,29 @@ form h2{
 .lang-flex{
     display: flex;
     gap: 25px;
+    margin-bottom: 45px;
 }
 
 footer{
-    padding: 0 200px 0 170px;
+    background-color: #1e0033;
+    padding: 50px 200px;
+    color: #e8e6e3;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: #e8e6e3;
+}
+footer ul li{
+    list-style-type: none;
+    margin: 7px;
+}
+footer h1, h3{
+    font-weight: 100;
+    margin: 10px;
+}
+footer svg{
+    width: 19%;
 }
