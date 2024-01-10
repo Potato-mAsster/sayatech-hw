@@ -13,7 +13,8 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header h1{
+
+header .header-container h1 {
     margin: 15px 0;
     color: white;
     font-weight: 400;
@@ -295,4 +296,29 @@ footer h1, h3{
 }
 footer svg{
     width: 19%;
+}
+
+.feature-main{
+    background-color: #f4f4f4;
+    padding: 20px 170px;
+}
+.feature-main p{
+    width: 50%;
+
+}
+.feature-main h1{
+    font-weight: 100;
+}
+
+header .h1{
+    margin: 70px 170px 20px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    font-size: 55px ;
+}
+header h3{
+    margin: 0 170px;
+    padding-bottom: 50px;
+    color: white;
 }
