@@ -88,6 +88,8 @@ input[type="submit"]:hover{
     padding: 40px;
     border-radius: 10px;
     margin-top: 100px;
+    z-index: 10;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.384);
 }
 form{
     margin: auto;
@@ -128,9 +130,15 @@ form h2{
 .main-container .l p{
     line-height: 1.5;
 }
+
+
 .skewed{
-    padding: 0 200px 0 170px;
     background-color: #181a1b;
+    height: 170px;
+    margin-top: -110px;
+    width: 100vw;
+    transform-origin: right top;
+    transform: skewY(-3deg);
 }
 
 
