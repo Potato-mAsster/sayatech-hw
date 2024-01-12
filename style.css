@@ -390,7 +390,7 @@ header h3{
         width: 90%;
         padding: 0;
         margin: 0;
-        margin-left: -320px;
+        margin-left: -730px;
     }
     main{
         padding: 0;
@@ -406,6 +406,7 @@ header h3{
     }
     .main-container .r{
         width: 60%;
+        margin-left: 730px;
     }
     @keyframes left {
         to {
@@ -415,7 +416,7 @@ header h3{
       }
     @keyframes right {
         to {
-          transform: translateX(30%);
+          transform: translateX(20%);
           opacity: 1;
         }
       }
@@ -466,6 +467,107 @@ header h3{
         margin-left: 5px;
       }
 }
+
+@media screen and (max-width: 1070px){
+    .main-container .l{
+        width: 80%;
+    }
+    .main-container .r{
+        width: 80%;
+    }
+    @keyframes left {
+        to {
+          transform: translateX(-70%);
+          opacity: 1;
+        }
+      }
+    @keyframes right {
+        to {
+          transform: translateX(70%);
+          opacity: 1;
+        }
+      }
+}
+@media screen and (max-width: 925px){
+    .main-container .l{
+        width: 80%;
+    }
+    .main-container .r{
+        width: 70%;
+    }
+    @keyframes left {
+        to {
+          transform: translateX(-75%);
+          opacity: 1;
+        }
+      }
+    @keyframes right {
+        to {
+          transform: translateX(70%);
+          opacity: 1;
+        }
+      }
+}
+@media screen and (max-width: 865px){
+    .main-container .l{
+        width: 70%;
+    }
+    .main-container .r{
+        width: 60%;
+    }
+    @keyframes left {
+        to {
+          transform: translateX(-87%);
+          opacity: 1;
+        }
+      }
+    @keyframes right {
+        to {
+          transform: translateX(94%);
+          opacity: 1;
+        }
+      }
+}
+@media screen and (max-width: 650px){
+    .main-container .l{
+        width: 70%;
+    }
+    .main-container .r{
+        width: 60%;
+    }
+    @keyframes left {
+        to {
+          transform: translateX(-99%);
+          opacity: 1;
+        }
+      }
+    @keyframes right {
+        to {
+          transform: translateX(110%);
+          opacity: 1;
+        }
+      }
+}
+@media screen and (max-width: 580px){
+    .main-container .l{
+        width: 70%;
+    }
+    .main-container .r{
+        width: 60%;
+    }
+    @keyframes left {
+        to {
+          transform: translateX(-115%);
+          opacity: 1;
+        }
+      }
+    @keyframes right {
+        to {
+          transform: translateX(140%);
+          opacity: 1;
+        }
+      }
+}
 @media screen and (max-width: 500px){
     .header-container{
         display: flex;
@@ -491,14 +593,54 @@ header h3{
     }
     @keyframes left {
         to {
-          transform: translateX(-50%);
+          transform: translateX(-110%);
           opacity: 1;
         }
       }
     @keyframes right {
         to {
-          transform: translateX(70%);
+          transform: translateX(150%);
           opacity: 1;
         }
       }
+}
+@media screen and (max-width: 450px){
+    .main-container .l{
+        width: 90%;
+    }
+    .main-container .r{
+        width: 60%;
+    }
+    @keyframes left {
+        to {
+          transform: translateX(-115%);
+          opacity: 1;
+        }
+      }
+    @keyframes right {
+        to {
+          transform: translateX(135%);
+          opacity: 1;
+        }
+      }
+  @media screen and (max-width: 400px){
+    .main-container .l{
+        width: 100%;
+    }
+    .main-container .r{
+        width: 70%;
+    }
+    @keyframes left {
+        to {
+          transform: translateX(-140%);
+          opacity: 1;
+        }
+      }
+    @keyframes right {
+        to {
+          transform: translateX(145%);
+          opacity: 1;
+        }
+      }
+  }
 }
